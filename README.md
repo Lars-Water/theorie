@@ -22,6 +22,15 @@ Om de code te draaien met de standaardconfiguratie (bv. brute-force en voorbeeld
 
 python main.py
 
+### State space
+
+which can be used to describe the system and predict the direction the system is going.
+
+Regarding this case the dynamic system can be placed in a model which can predict the behaviour of this system. In order to predict what state the system will be in after x=time system is info is needed about:
+  
+  - model constants:
+    - Water
+
 Auteurs (Authors)
 
     Stijn van den Berg
