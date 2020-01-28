@@ -64,6 +64,8 @@ The lower bound of the problem for this case can be easily defined. On account i
 
 We have theorized the upper bound can realized if every house on the map is put together in order to maximize the extra area around a maison. For this 
 
+![linear functions of extra housing price per house type](https://github.com/Lars-Water/theorie/blob/master/upper_bound.png)
+
 Auteurs (Authors)
 
     Stijn van den Berg
