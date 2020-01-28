@@ -24,12 +24,30 @@ python main.py
 
 ### State space
 
-which can be used to describe the system and predict the direction the system is going.
-
-Regarding this case the dynamic system can be placed in a model which can predict the behaviour of this system. In order to predict what state the system will be in after x=time system is info is needed about:
+Regarding this case the dynamic system can be placed in a model which can predict the behaviour of this system. In order to predict what state the system will be in after x=time parameter info is needed about:
   
-  - model constants:
-    - Water
+  - Model constants:
+    - Water: The water in the models is a constant as it's placed in a predetermined area.
+    - Default price for houses: The default price does not get higher or lower in the system over time.
+    - Number of houses: There is always a predetermined number of houses in the models.
+  - Input ( u(t) ):
+    - Moving of the houses: The moving of the houses portrays an input into the system which alters the overall state of the system, because the moving of a house changes the price of specific houses.
+  - Initial conditions of the model for the variable part of the system:
+    - Is the price currently changing? This change in condition can be determined from the difference in coordinates before and after moving.
+    
+There are 9 versions of the above described dynamic system, regarding a difference in constant values. All these versions can be fully described with the parameters and conditions which were just described.
+    
+State variables ( x(t) ):
+  - Coordinates of individual houses: The coordinates of the individual houses are the only state variables in the system of this case, because this is the minimum set of variables which enables to full describe the system. Other variables like individual housing price and total housing price can be determined from the housing coordinates and are therefore not first order variables. The coordinates can not be determined from pricing. Therefore coordinates are first order state variables.
+  
+Output ( y(t) ):
+  - Total housing price: The output of the dynamic system which changes over time is the total housing price.
+    
+A dynamic system stores energy. In this particular system the only storage element for energy are the houses and store their indivual prices as energy. The energy of every house is known from the coordinates of the house and the other houses.
+
+### Upper and Lower bound of the system
+
+
 
 Auteurs (Authors)
 
