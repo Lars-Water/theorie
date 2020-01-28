@@ -47,7 +47,22 @@ A dynamic system stores energy. In this particular system the only storage eleme
 
 ### Upper and Lower bound of the system
 
+In order to determine the limits of accuracy for this problem the upper and lower bound has to be determined.
 
+#### Lower bound
+
+The lower bound of the problem for this case can be easily defined. On account if all houses do not have any extra free space they will have their default value prices. The lower bounds have different values between the model variants with a difference in number of houses as the sum of all housing prices accounts for the total housing price:
+
+  - 20 houses:
+    - (285,000 * 12 + 399,000 * 5 + 610,000 * 3) = 7,245,000
+   - 40 houses:
+    - (285,000 * 24 + 399,000 * 10 + 610,000 * 6) = 14,490,000
+   - 60 houses:
+    - (285,000 * 36 + 399,000 * 15 + 610,000 * 9) = 21,735,000
+    
+#### Upper bound
+
+We have theorized the upper bound can realized if every house on the map is put together in order to maximize the extra area around a maison. For this 
 
 Auteurs (Authors)
 
