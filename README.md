@@ -63,6 +63,7 @@ The lower bound of the problem for this case can be easily defined. On account i
 #### Upper bound
 
 We have theorized the upper bound can realized if every house on the map is put together in order to maximize the extra area around a maison. Two housing types have a lower added value when they have have extra free space around in contrast to the other house. Therefore the upper bound should be reached by eliminating those houses with a lower added value. Moreover the total price should be higher if only one of the houses with the highest rewards is isolated, because the increase in individual housing price will be terminated once there is no full outline of free space around the house. Isolating more than one house should therefore eliminate the increase in housing price prematurely.
+
 We theorized the house type, which will result in the highest total housing price, is the maison household. This is because over an area of 11 meter extra free surrounding (starting from the first extra meter for a bungalow household as this is the smallest in length on the y-axis) the maison will be the house with the highest reward.
 
 ![linear functions of extra housing price per house type](https://github.com/Lars-Water/theorie/blob/master/upper_bound.png)
